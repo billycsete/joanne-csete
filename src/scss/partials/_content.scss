@@ -5,11 +5,11 @@
 // =================================================
 
 .content {
-	@include media($medium) {
+	@include media(medium) {
 		padding-left: 240px;
 	}
 
-	@include media($large) {
+	@include media(large) {
 		padding-left: 300px;
 	}
 }

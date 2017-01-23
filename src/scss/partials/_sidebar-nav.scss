@@ -15,11 +15,11 @@
 		border-bottom: 1px solid $dark-grey;
 
 		a {
-			@include transition(background-color 0.3s ease-in-out);
+			transition: background-color 0.3s ease-in-out;
 
 			i {
 				padding-left: 0;
-				@include transition(padding 0.3s $ease-in-out-quart);
+				transition: padding 0.3s $ease-in-out-quart;
 			}
 		}
 	}
@@ -29,7 +29,7 @@
 		padding: 12px 25px;
 	}
 
-	@include media($medium) {
+	@include media(medium) {
 		display: block;
 	}
 }

@@ -5,19 +5,18 @@
 // =================================================
 
 .sidebar {
+	@include selfclear;
 	position: relative;
-	z-index: $z-sidebar;
+	z-index: 10;
 	background-color: $grey;
 	color: $white;
-
-	@include clearfix;
 
 	a {
 		color: $white;
 		text-decoration: none;
 	}
 
-	@include media($medium) {
+	@include media(medium) {
 		position: fixed;
 		left: 0;
 		top: 0;
@@ -25,7 +24,7 @@
 		height: 100%;
 	}
 
-	@include media($large) {
+	@include media(large) {
 		width: 300px;
 	}
 }

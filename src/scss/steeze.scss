@@ -1,16 +1,8 @@
 /*
- * Author: William Csete
- * http://williamcsete.com
+ * Author: Billy Csete
+ * http://billy.codes
  *
  */
-
-// =================================================
-// Frameworks
-// =================================================
-
-@import 'bourbon';
-@import 'neat';
-
 
 // =================================================
 // Settings
@@ -18,6 +10,7 @@
 
 @import 'settings/settings';
 @import 'settings/breakpoints';
+@import 'settings/mixins';
 
 
 // =================================================
